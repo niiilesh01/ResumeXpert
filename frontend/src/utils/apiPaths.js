@@ -1,4 +1,4 @@
-export const BASE_URL = "https://resumexpert-backend.onrender.com";
+export const BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 //utils/apiPath.js
 export const API_PATHS = {
